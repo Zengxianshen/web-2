@@ -1,0 +1,59 @@
+* { margin: 0; padding: 0; }
+img { border: 0; }
+ol, ul, li { list-style: none; }
+
+#dd { width: 1000px; height: 490px; margin: 5px auto; }
+#dd>div { float: left; height: 100%; }
+.dd-1 { width: 643px;    /* background-color:green; */ }
+.dd-2 { width: 357px; background: url(../img/index_03.png); }
+.dd-1-1 { width: 643px; height: 60px; background: url(../img/index_04.png) no-repeat; margin-top: 1px; }
+.dd-1-2 { width: 643px; height: 208px; }
+.dd-1-2>div { float: left; }
+.dd-1-2-1 { width: 309px; height: 208px; background: url(../img/2013040353722189.jpg) no-repeat; margin-top: 5px; }
+.dd-1-2-2 { width: 334px; height: 208px; }
+.dd-1-2-2>div a{
+    font-size:14px;
+}
+.dd-1-2-2-1 { width: 235; height: 65px; background: url(../img/ico_bg1.gif) no-repeat; margin-top: 16px; margin-left: 22px; }
+.dd-1-2-2-2 { width: 235; height: 65px; background: url(../img/ico_bg2.gif) no-repeat; margin-left: 22px; }
+.dd-1-2-2-3 { width: 235; height: 65px; background: url(../img/ico_bg3.gif) no-repeat; margin-left: 22px; }
+.dd-1-2-2>div { position: relative; }
+.dd-1-2-2>div>a { position: absolute; top: 20px; left: 40px; }
+.dd-1-2-2-1:hover a { color: red; }
+.dd-1-2-2-1:hover { background-position: 0 -65px; }
+.dd-1-2-2-2:hover a { color: red; }
+.dd-1-2-2-2:hover { background-position: 0 -65px; }
+.dd-1-2-2-3:hover a { color: red; }
+.dd-1-2-2-3:hover { background-position: 0 -65px; }
+.dd-1-2-2 a { display: block; width: 200px; }
+.dd-1-3 { width: 250px; height: 5px; float: left; margin-left: 10px; }
+.dd-1-3 ul li { height: 30px; line-height: 30px; border-bottom: 1px dashed gray;font-size:12px; }
+.dd-1-3 ul li a:hover { color: red; }
+.dd-1-4 { width: 250px; height: 10px; float: left; margin-top: -6px; }
+.dd-1-4 ul li { height: 30px; line-height: 30px; border-bottom: 1px dashed gray;font-size:12px; }
+.dd-1-4 ul li a:hover { color: red; }
+.dd-1-3-1 { font-size: 16px; font-weight: 900; margin-top: 15px; }
+
+.dd-1-3-1 a { font-size: 12px; color: #7F0000; }
+.dd-1-4-1 { margin-top: 12px; font-size: 16px; font-weight: 900; }
+.dd-1-4-1 a { font-size: 12px; color: #7F0000; }
+#tu { width: 1000px; height: 400px; margin: auto; }
+.tu-ul { overflow: hidden; margin: 10px 0; }
+.tu-ul li { float: left; width: 240px; height: 326px; margin-right: 5px; }
+.tu1 { background: url(../img/2013041059120157.jpg); }
+.tu2 { background: url(../img/2013041761053437.jpg); }
+.tu3 { background: url(../img/2013041843799657.JPG); }
+.tu4 { background: url(../img/2013041843441953.JPG); }
+.tu ul li a { display: block; width: 100%; }
+.tu-meng { width: 100%; height: 0; background-color: rgba(0, 0, 0, .5); position: relative; }
+.tu-zi { position: absolute; bottom: 0px; color: white; left: 15px; }
+.tu1:hover>div { height: 100%; transition: 1s; }
+.tu-meng2 { width: 100%; height: 0; background-color: rgba(0, 0, 0, .5); position: relative; }
+.tu-zi2 { position: absolute; bottom: 0px; color: white; left: 15px; }
+.tu2:hover>div { height: 100%; transition: 1s; }
+.tu-meng3 { width: 100%; height: 0; background-color: rgba(0, 0, 0, .5); position: relative; }
+.tu-zi3 { position: absolute; bottom: 0px; color: white; left: 15px; }
+.tu3:hover>div { transition: 1s; height: 100%; }
+.tu-meng4 { width: 100%; height: 0; background-color: rgba(0, 0, 0, .5); position: relative; }
+.tu-zi4 { position: absolute; bottom: 0px; color: white; left: 15px; }
+.tu4:hover>div { transition: 1s; height: 100%; }
